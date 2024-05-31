@@ -1,0 +1,17 @@
+POST http://localhost:8080/api/datosCalidadAire/datosCalidadAire/añadir
+Content-Type: application/json
+Authorization: Basic YWRtaW4xMjM6YWRtaW4xMjNwcnVlYmE=
+
+{
+  "co2": 5000,
+  "pm25": 500,
+  "pm10": 1600,
+  "o3": 500,
+  "no2": 300,
+  "so2": 400,
+  "fecha": "2024-05-07T12:00:00",
+  "sistemaArduino": {
+    "id": 1
+  }
+}
+
