@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="8dp" /> <!-- Ajusta el radio según tu preferencia -->
+    <solid android:color="@android:color/white" /> <!-- Color de fondo del elemento del menú -->
+    <stroke
+        android:width="1dp"
+        android:color="#CCCCCC" /> <!-- Borde del elemento del menú -->
+</shape>

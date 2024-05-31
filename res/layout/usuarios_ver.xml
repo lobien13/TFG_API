@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_user"
+    tools:context=".Usuarios.UsuariosVer">
+
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView para mostrar la lista de usuarios -->
+
+    <!-- Botón para obtener usuarios -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/btnObtenerUsuario"
+        android:layout_below="@id/textTitle"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="-300dp" />
+
+    <Button
+        android:id="@+id/btnObtenerUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Obtener Usuarios" />
+
+    <include
+        android:id="@+id/barra"
+        layout="@layout/barra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

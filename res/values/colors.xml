@@ -1,0 +1,7 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorIncidencia">#FF0000</color> <!-- Color para cuando hay incidencias (rojo) -->
+    <color name="colorSinIncidencia">#00FF00</color> <!-- Color para cuando no hay incidencias (verde) -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Color primario de tu aplicación -->
+</resources>

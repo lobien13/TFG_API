@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Usuarios.CrearUsuarioActivity">
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/editTextCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNombre"
+        android:layout_marginBottom="16dp"
+        android:hint="Correo electrónico" />
+
+    <EditText
+        android:id="@+id/editTextContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCorreo"
+        android:layout_marginBottom="16dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnCrearUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextContrasena"
+        android:text="Crear Usuario" />
+
+</RelativeLayout>

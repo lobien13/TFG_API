@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Resto de tu layout -->
+
+    <!-- Barra en la parte inferior -->
+    <View
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#8242DD"
+        android:layout_alignParentBottom="true" />
+
+    <!-- Hendidura circular en el medio de la barra -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_shape" />
+
+        <!-- Botón de suma en el centro de la barra -->
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="86dp"
+            android:layout_height="76dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:text="+"
+            android:textSize="30sp" />
+
+        <!-- Símbolo de usuario -->
+        <ImageButton
+            android:id="@+id/btnUsuarios"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user"
+            android:background="?android:attr/selectableItemBackground" />
+
+        <!-- Símbolo de incidencia -->
+        <ImageButton
+            android:id="@+id/btnIncidencias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/danger"
+            android:background="?android:attr/selectableItemBackground" />
+
+        <!-- Símbolo de datos -->
+        <ImageButton
+            android:id="@+id/btnDatosCalidadAire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/wind__1_"
+            android:background="?android:attr/selectableItemBackground" />
+
+        <!-- Símbolo de sistemas Arduino -->
+        <ImageButton
+            android:id="@+id/btnSistemasArduino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="370dp"
+            android:layout_marginTop="60dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/cpu" />
+
+    </FrameLayout>
+
+</RelativeLayout>

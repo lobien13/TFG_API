@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_obtener_incidencias"
+        android:title="Obtener Incidencias" />
+    <item
+        android:id="@+id/action_crear_incidencia"
+        android:title="Crear Incidencia" />
+    <item
+        android:id="@+id/action_eliminar_incidencias"
+        android:title="Eliminar Incidencias" />
+</menu>

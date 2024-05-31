@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_incidencias"
+    tools:context=".Incidencias.IncidenciasActivity">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView para mostrar la lista de incidencias -->
+
+    <!-- Botón para obtener incidencias -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/btnObtenerIncidencias"
+        android:layout_below="@id/textTitle"
+        android:layout_marginTop="311dp"
+        android:layout_marginBottom="-247dp" />
+
+    <Button
+        android:id="@+id/btnObtenerIncidencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Obtener Incidencias" />
+
+    <!-- Botón para ir a la pantalla de creación de incidencias -->
+
+    <include
+        android:id="@+id/barra"
+        layout="@layout/barra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+
+    <!-- Otros botones o elementos de la interfaz, si es necesario -->
+
+</RelativeLayout>

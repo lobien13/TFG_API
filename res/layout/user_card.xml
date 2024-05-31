@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/border">
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo: "
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvidContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña: "
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSistemasArduino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sistemas Arduino: "
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+</LinearLayout>

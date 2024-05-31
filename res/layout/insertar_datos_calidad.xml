@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextFechaHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha y Hora" />
+
+
+    <EditText
+        android:id="@+id/editTextDatosId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Datos ID" />
+
+
+
+    <EditText
+        android:id="@+id/editTextCo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CO2" />
+
+    <EditText
+        android:id="@+id/editTextPm25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PM2.5" />
+
+    <EditText
+        android:id="@+id/editTextPm10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PM10" />
+
+    <EditText
+        android:id="@+id/editTextO3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="O3" />
+
+    <EditText
+        android:id="@+id/editTextNo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NO2" />
+
+    <EditText
+        android:id="@+id/editTextSo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SO2" />
+
+    <!-- EditText para el sistema -->
+    <EditText
+        android:id="@+id/editTextSistema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sistema" />
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+
+</LinearLayout>

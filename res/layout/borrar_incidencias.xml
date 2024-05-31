@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Eliminar Incidencia"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Campo para ingresar el ID de la incidencia -->
+    <EditText
+        android:id="@+id/editTextIncidenciaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_marginTop="16dp"
+        android:hint="ID de la Incidencia"
+        android:inputType="number" />
+
+    <!-- Botón para eliminar la incidencia -->
+    <Button
+        android:id="@+id/btnEliminarIncidencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextIncidenciaId"
+        android:layout_marginTop="16dp"
+        android:text="Eliminar Incidencia" />
+
+</RelativeLayout>

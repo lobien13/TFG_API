@@ -1,0 +1,7 @@
+<resources>
+    <style name="AppTheme.PopupMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:itemBackground">@drawable/rounded_menu_item</item> <!-- Utilizamos un drawable redondeado para los elementos del menú -->
+    </style>
+</resources>
